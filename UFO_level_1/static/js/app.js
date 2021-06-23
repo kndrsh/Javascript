@@ -1,6 +1,4 @@
 // from data.js
-data : {'name':name1},
-
 var tableData = data;
 console.log(tableData);
 
@@ -11,6 +9,8 @@ console.log(data);
 //data.forEach(function(ufoSighting){
     // console.log(ufoSighting);
 //});
+
+data = JSON.parse(data);
 
 data.forEach(function(ufoSighting){
     console.log(ufoSighting);
