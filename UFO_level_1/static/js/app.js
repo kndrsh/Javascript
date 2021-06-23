@@ -1,5 +1,7 @@
 // from data.js
-var tableData = data ;
+data : {'name':name1},
+
+var tableData = data;
 console.log(tableData);
 
 // YOUR CODE HERE!
